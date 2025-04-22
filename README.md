@@ -1,16 +1,42 @@
-# focusmate
+# FocusMate
 
-A new Flutter project.
+FocusMate, kullanıcıların odaklanarak görev tamamlamalarını teşvik eden bir Flutter uygulamasıdır. Pomodoro tekniği mantığıyla çalışır ve görev tamamlandıkça kullanıcıya ödül olarak altın kazandırır.
 
-## Getting Started
+## Özellikler
 
-This project is a starting point for a Flutter application.
+- Görev girme alanı
+- 25 dakikalık geri sayım sayacı
+- Görev tamamlandığında altın kazanımı
+- Kazanılan altınlar cihazda saklanır
+- Temiz ve modüler kod yapısı
 
-A few resources to get you started if this is your first Flutter project:
+## Kurulum
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Bu projeyi klonlayın:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/KULLANICIADIN/FocusMate.git
+Proje klasörüne girin:
+
+bash
+Kopyala
+Düzenle
+cd FocusMate
+Gerekli paketleri indirin:
+
+bash
+Kopyala
+Düzenle
+flutter pub get
+Uygulamayı çalıştırın:
+
+bash
+Kopyala
+Düzenle
+flutter run
+
+Geliştirici Notu
+Bu proje, Flutter öğrenme sürecinde geliştirilmiş olup temel bir odaklanma aracı olarak tasarlanmıştır. İleride altınlarla tema açma, motivasyon cümleleri gösterme gibi özellikler eklenmesi planlanmaktadır.
+
+Lisans
+Bu proje açık kaynak olarak paylaşılmıştır. İsteyenler inceleyebilir, geliştirebilir veya katkıda bulunabilir.
